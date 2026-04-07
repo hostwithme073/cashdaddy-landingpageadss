@@ -79,25 +79,7 @@ h1 {
 }
 </style>
 
-<script>
-let timeLeft = 10;
 
-function startCountdown() {
-    let timer = document.getElementById("timer");
-
-    let countdown = setInterval(() => {
-        timeLeft--;
-        timer.innerHTML = timeLeft;
-
-        if (timeLeft <= 0) {
-            clearInterval(countdown);
-            window.location.href = "https://t.me/+yS1hW1CkP5JjNDY9";
-        }
-    }, 1000);
-}
-
-window.onload = startCountdown;
-</script>
 
 </head>
 
