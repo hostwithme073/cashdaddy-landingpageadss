@@ -104,15 +104,9 @@ h1 {
 
 
 <a href="#"
-onclick="
-fbq('track', 'Lead');
-setTimeout(function(){
-window.open('https://t.me/+yS1hW1CkP5JjNDY9', '_blank');
-}, 1000);
-return false;
-"
-class="btn">
-👉 JOIN NOW INSTANTLY 
+class="btn"
+onclick="event.preventDefault(); fbq('track', 'Lead'); setTimeout(function(){ window.open('https://t.me/+yS1hW1CkP5JjNDY9','_blank'); }, 1200);">
+👉 JOIN NOW INSTANTLY
 </a>
 
 <p style="margin-top:15px; font-size:14px; opacity:0.6;">
